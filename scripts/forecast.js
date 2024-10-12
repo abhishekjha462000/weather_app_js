@@ -1,4 +1,4 @@
-const key = 'nAU3gPA8z9H4Y07AXz93cRi848mGBRuM';
+const key = 'OKjgmMegv6aDY4FYyGNh9x3nswmeg6Gh';
 
 
 async function getLocationId(city) {
