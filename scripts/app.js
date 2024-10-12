@@ -30,8 +30,8 @@ form.addEventListener('submit', async function (event) {
         </div>
     `
 
-    time.setAttribute('src', `https://raw.githubusercontent.com/abhishekjha462000/weather_app_js/refs/heads/main/img/${IsDayTime ? "day.svg" : "night.svg"}`);
-    icon.setAttribute('src', `https://raw.githubusercontent.com/abhishekjha462000/weather_app_js/refs/heads/main/img/icons/${WeatherIcon}.svg`);
+    time.setAttribute('src', `./img/${IsDayTime ? "day.svg" : "night.svg"}`);
+    icon.setAttribute('src', `./img/icons/${WeatherIcon}.svg`);
 
     // Now show the card
     if(card.classList.contains('d-none')) {
